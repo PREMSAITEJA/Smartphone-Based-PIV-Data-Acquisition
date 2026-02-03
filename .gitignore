@@ -1,0 +1,29 @@
+# dependencies
+**/node_modules/
+
+# Expo
+android_application/.expo/
+android_application/.expo-shared/
+android_application/.expo/*
+
+# build artifacts
+**/dist/
+**/build/
+**/.gradle/
+
+# logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# backend runtime data
+piv-backend/uploads/
+piv-backend/results/
+piv-backend/raw_data/
+
+# temp files
+**/*.log

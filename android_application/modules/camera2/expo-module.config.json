@@ -1,0 +1,10 @@
+{
+  "name": "camera2",
+  "version": "1.0.0",
+  "platforms": ["android"],
+  "main": "index.ts",
+  "android": {
+    "package": "com.pivapp.camera2",
+    "sourceDir": "android"
+  }
+}
